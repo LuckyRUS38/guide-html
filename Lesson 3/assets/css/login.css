@@ -11,6 +11,7 @@ body{
 
 .container{
     box-shadow: 11px 6px 15px 5px rgba(34, 60, 80, 0.2);
+    border-radius: 15px;
     background-color: #33CEC3;
     width: 500px;
     height: 700px;
@@ -47,7 +48,7 @@ body{
     grid-template-columns: 30px 170px;
 }
 
-.sign-in{
+#sign-in{
     background-color: #009D91;
     width: 170px;
     height: 30px;
@@ -62,11 +63,35 @@ body{
     box-shadow: 8px 4px 8px 0px rgba(34, 60, 80, 0.2);
 }
 
-.sign-in:hover{
+#sign-in:hover{
     background-color: #04897f;
     width: 190px;
     height: 35px;
     margin-left: 150px;
     line-height: 35px;
     box-shadow: 8px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+#notification-container{
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    margin-top: 250px;
+    margin-left: 100px;
+    border-radius: 10px;
+    background-color: #009D91;
+}
+
+#notification-title{
+    margin: 8px 0 0 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#notification-content{
+    margin: 10px 0 0 10px;
+}
+
+.hidden{
+    display: none;
 }

@@ -11,17 +11,24 @@
                                                         <!--Container-->
 <div class="container">
     <div class="title">Логин панель</div>
+    <div id="notification-container" class="hidden">
+        <div id="notification-title">Уведомление</div>
+        <div id="notification-content"></div>
+    </div>
+    <div class="login-panel">
     <div class="inputs">
         <div class="login-input">
             <div class="login-logo"><img src="assets/images/login.svg" class="login-icon icon" alt="login icon"></div>
-            <label><input type="text" class="login input" placeholder="Введите логин"></label>
+            <label><input type="text" class="login input" id="login" placeholder="Введите логин"></label>
         </div>
         <div class="password-input">
             <div class="password-logo"><img src="assets/images/password.svg" class="password-icon icon" alt="password icon"></div>
-            <label><input type="text" class="password input" placeholder="Введите пароль"></label>
+            <label><input type="text" class="password input" id="password" placeholder="Введите пароль"></label>
         </div>
-        <div class="sign-in">Войти</div>
+        <div id="sign-in">Войти</div>
+        </div>
     </div>
+    <div class="register-panel"></div>
 </div>
 </body>
 </html>
